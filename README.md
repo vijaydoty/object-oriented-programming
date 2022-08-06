@@ -70,7 +70,7 @@ public:
         return numCookies;
     }
     
-    Cookie requestCookie(string type, ){
+    Cookie requestCookie(){
         Cookie ck("Badam", 5);
         return ck;
     }
@@ -91,5 +91,12 @@ Constructor : allocates memory and initializes
 Default constructor auto created if we don't create one.
 If we create a parameterized constructor, default constructor is not automatically created
 
-**Abstraction**: hiding data
+**Abstraction**: hiding data <br>
 **Encapsulation**: binding the member data with the methods 
+
+
+Test t2; // stack space, during compile time itself <br>
+Test *t3 = new Test(); // heap space, during run time
+
+**`IS A`** indicates we can use inheritance <br>
+**`HAS A`** <br>
