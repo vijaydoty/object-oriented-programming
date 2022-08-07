@@ -100,3 +100,28 @@ Test *t3 = new Test(); // heap space, during run time
 
 **`IS A`** indicates we can use inheritance <br>
 **`HAS A`** <br>
+
+---
+`Java`
+- Class having abstract method will be abstract 
+- Abstract Class may or may not have abstract method
+- A derived class can inherit only one base class, but can implements any number of interfaces
+- we cannot create object of Abstract class
+
+---
+`C++`
+- static methods can only access static variables
+- non-static methods can access static variables
+- static variable must be initialized outside the class as it exists without the existence of any object
+- `abstract method` &#8594; `virtual returnType methodName() = 0;`
+- `interfaces`: class with only the abstract methods &#8594; i.e. all `virtual returnType methodName() = 0;`
+
+---
+The `final` keyword is used to prevent a class from being inherited and to prevent inherited method from being overridden.
+- `Abstract Class` &#8594; no object created from it
+- `Abstract Method`
+
+- `Final Class` &#8594; no classes inherited from it
+<br>
+Use these keywords to better communicate intentions
+<br>
